@@ -1,0 +1,34 @@
+.app-wrapper mat-toolbar {
+  background: teal;
+  color: #fff; 
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-content {
+  padding: 20px;
+  grid-gap: 20px;
+  background: #e8e7ee;
+} 
+
+.side {
+  width: 200px;
+  background: #fff;
+  color: #571a3d; 
+  height: calc(100vh - 150px);
+  padding: 20px;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  border-radius: 8px;
+}
+
+.side .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.side .btn mat-icon {
+  margin-right: 10px;
+}
